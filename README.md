@@ -1,2 +1,2 @@
 # SimpleTodo
-Created a simple todo app using typescript , nodejs , postgres , postgres  , tailwind css.  
+Created a simple todo app using typescript , nodejs , postgres  , tailwind css.  

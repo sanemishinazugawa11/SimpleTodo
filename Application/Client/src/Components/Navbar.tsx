@@ -14,12 +14,6 @@ const Navbar: React.FC = () => {
         }
         else {
             setIsLogged(false);
-
-            // toast.info("Please login to continue", {
-            //     position: "top-center",
-            //     autoClose: 2000,
-            //     className: 'text-neutral-950 bg-amber-100  text-xs font-switzer font-semibold'
-            // })
         }
     }
 
