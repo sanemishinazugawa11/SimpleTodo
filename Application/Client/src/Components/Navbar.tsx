@@ -14,12 +14,6 @@ const Navbar: React.FC = () => {
         }
         else {
             setIsLogged(false);
-
-            // toast.info("Please login to continue", {
-            //     position: "top-center",
-            //     autoClose: 2000,
-            //     className: 'text-neutral-950 bg-amber-100  text-xs font-switzer font-semibold'
-            // })
         }
     }
 
@@ -69,7 +63,7 @@ const Navbar: React.FC = () => {
 
                 </div>
                
-                <div className="sm:hidden  absolute top-0 w-[70vw] left-1/2 -translate-x-[50%] rounded-full  flex justify-evenly items-center  bg-neutral-950/40 border-[0.9px] border-neutral-700 font-switzer text-md text-amber-50 p-1">
+                <div className="sm:hidden  absolute z-50 top-0 w-[70vw] left-1/2 -translate-x-[50%] rounded-full  flex justify-evenly items-center  bg-neutral-950/40 border-[0.9px] border-neutral-700 font-switzer text-md text-amber-50 p-1">
                     <span onClick={()=> navigate('/')} className="sm:hover:bg-gray-800 rounded-xl p-3">Home</span>
                     <span onClick={()=> {
                         if (isLogged) {
