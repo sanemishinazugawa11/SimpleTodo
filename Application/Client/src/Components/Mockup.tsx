@@ -1,4 +1,3 @@
-import React from 'react'
 import mockup from '../assets/MobileMockup.png'
 function Mockup() {
     return (

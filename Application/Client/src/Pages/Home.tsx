@@ -1,12 +1,9 @@
-import React, { useEffect } from 'react'
 import Hero from "../Components/Hero";
 import Mockup from "../Components/Mockup";
 import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
-import { useNavigate } from 'react-router-dom';
 
 function Home() {
-    const navigate = useNavigate();
    
 
 
