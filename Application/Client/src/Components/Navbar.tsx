@@ -40,7 +40,7 @@ const Navbar: React.FC = () => {
         <div>
             <ToastContainer />
 
-            <div className=" bg-neutral-950/80 backdrop-blur-md text-white rounded-full z-50 border-[0.5px] flex justify-evenly items-center border-x-slate-600 border-y-neutral-700 fixed top-10 left-1/2  w-[60%] sm:w-[50%]  -translate-x-[50%] h-[10vh] ">
+            <div className=" bg-neutral-950/80 backdrop-blur-md text-white rounded-full z-50 border-[0.5px] flex justify-evenly items-center border-x-slate-600 border-y-neutral-700 fixed top-10 left-1/2  w-[80%] sm:w-[50%]  -translate-x-[50%] h-[10vh] ">
                 <span className="hover:underline hover:cursor-pointer sm:rounded-xl font-semibold font-switzer sm:text-lg lg:text-xl xl:text-2xl">Home</span>
                 <span onClick={() => {
                     if (isLogged) {
